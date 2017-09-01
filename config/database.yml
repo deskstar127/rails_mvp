@@ -1,0 +1,29 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: test_mvp
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+  pool: 500
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: test_mvp
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+  pool: 500
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: test_mvp
+  username: postgres
+  password: postgres
+  host: localhost
+  port: 5432
+  pool: 500
